@@ -9,5 +9,5 @@ func main() {
 	router.Static("/", "./")
 
 	// Listen and serve on 0.0.0.0:8080
-	router.Run(":8080")
+	router.Run(":80")
 }
